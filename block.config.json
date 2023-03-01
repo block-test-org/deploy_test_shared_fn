@@ -1,0 +1,13 @@
+{
+  "name": "deploy_test_shared_fn",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/block-test-org/deploy_test_shared_fn",
+    "ssh": "git@github.com:block-test-org/deploy_test_shared_fn.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
